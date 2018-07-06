@@ -1,0 +1,87 @@
+.box {
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+  background-color: black;
+  height: 520px;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 200px;
+  transition: transform .4s;
+  box-shadow: 0px 0px 41px 0px rgba(255,255,255,1);
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  color: white;
+}
+
+html { 
+  background: url(https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f78b533b7bac6a79b4c694bac28bdb2f&auto=format&fit=crop&w=1325&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#age {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin-top: -43px;
+  margin-left: -250px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.desc {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+#img {
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.ligne {
+  width: 300px;
+  border-top: 1px solid white;
+  margin: 0 auto;
+
+}
+
+.icons {
+  opacity: 0.6;
+  background-color: white;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: -5px;
+  transition: 0.3s;
+}
+
+.icons:hover {
+  opacity: 1;
+}
+
+#icon1 {
+    float: left;
+}
+#icon2 {
+    float: right;
+}

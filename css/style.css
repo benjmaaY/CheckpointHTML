@@ -1,0 +1,145 @@
+html { 
+  background: url(https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=147e2e8cf170205b7621bbfed83f65bb&auto=format&fit=crop&w=2082&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  background-color: white;
+  height: 2575px;
+  width: 1600px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: transform .4s;
+  box-shadow: 0px 0px 41px 0px rgba(255,255,255,1);
+}
+
+#font1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+}
+.rich {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+.rommer {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin-top: -67px;
+	margin-right: 65px;
+}
+
+.font2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+.image {
+	border-radius: 8px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.font3 {
+	font-family: 'Galada', cursive;
+}
+.font4 {
+	font-family: 'Galada', cursive;
+	font-size: 25px;
+}
+p {
+margin: 0;
+padding: 0;
+}
+#titre {
+margin: 0;
+padding: 0;
+}
+.titles {
+	font-family: 'Anton', sans-serif;
+}
+#margin {
+margin: 0;
+padding: 0;
+}
+#img2 {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+  	padding: 5px 5px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#margin2 {
+	margin-left: 25px;
+}
+.buttons {
+    transition-duration: 0.4s;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons:hover {
+    background-color: #4CAF50;
+    width: 200px;
+    height: 50px;
+}
+#download2 {
+	font-size: 23px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+#desc1{
+	width: 1000px;
+    margin-right: 10px;
+    margin-left: 20px;
+    float: left;
+}
+#img1 {
+	width: 500px;
+	margin-right: 10px;
+	margin-left: 200px;
+    float: right;
+
+}
+.block1{
+	display: table;
+	clear: both;
+
+}
+#margin_all {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#main {
+
+  display: flex;
+}
+
+#main div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 40px;
+}
+
+.cv {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 30px;
+}
+
+.cv:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.texting {
+	font-size: 15px;
+	font-family: 'Galada', cursive;
+}
+
